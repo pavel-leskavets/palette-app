@@ -1,1 +1,1 @@
-# palette-app
+### This application is part of the study in The Rolling Scopes, it is possible to choose the color with the "pipette" tool, then you can paint the figures with the "paint bucket" tool, you can also move elements across the field, swap them, and transform them from square to circle and back. It is possible to control both the mouse and the keyboard

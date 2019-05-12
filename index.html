@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pallete</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-bars"></i> CodeJam - Pallete</h1>
+        <p><i class="fas fa-ellipsis-v"></i></p>
+    </header>
+    <main>
+        <div class="palette-and-colors">
+            <div class="palette">
+                <button class="button button-paint-bucket"><i class="fas fa-fill"></i> Paint bucket  <span class="hot-keys">( P )</span></button>                    
+                <button class="button button-pipette"><i class="fas fa-eye-dropper"></i> Choose color <span class="hot-keys hot-pipette">( K )</span></button>                               
+                <button class="button button-move"><i class="fas fa-expand-arrows-alt"></i> Move <span class="hot-keys hot-move">( M )</span></button>
+                <button class="button button-swap"><i class="fas fa-random"></i>Swap <span class="hot-keys hot-swap">( S )</span></button>
+                <button class="button button-transform"><i class="fas fa-exchange-alt"></i>Transform <span class="hot-keys hot-transform">( T )</span></button>
+            </div>
+            <div class="colors">
+                <button class="button current-color-button"><i class="fas fa-circle current-color"></i> Current color</button>
+                <button class="button prev-color-button"><i class="fas fa-circle prev-color"></i> Previous color <span class="hot-keys hot-prev">( Tab )</span</button>
+                <button class="button red-color-button"><i class="fas fa-circle dote-red-color"></i> Red <span class="hot-keys hot-red">( R )</span></button>
+                <button class="button blue-color-button"><i class="fas fa-circle dote-blue-color"></i> Blue <span class="hot-keys hot-blue">( B )</span></button>
+            </div>
+            <div class="custom-colors" id="custom-colors">
+                    <div class="custom-palette-colors color1"></div>
+                    <div class="custom-palette-colors color2"></div>
+                    <div class="custom-palette-colors color3"></div>
+                    <div class="custom-palette-colors color4"></div>
+                    <div class="custom-palette-colors color5"></div>
+                    <div class="custom-palette-colors color6"></div>
+                    <div class="custom-palette-colors color7"></div>
+                    <div class="custom-palette-colors color8"></div>
+                    <div class="custom-palette-colors color9"></div>
+                    <div class="custom-palette-colors color10"></div>
+                    <div class="custom-palette-colors color11"></div>
+                    <div class="custom-palette-colors color12"></div>
+                    <div class="custom-palette-colors color13"></div>
+                    <div class="custom-palette-colors color14"></div>
+                    <div class="custom-palette-colors color15"></div>
+                    <div class="custom-palette-colors color16"></div>
+            </div>
+        </div>
+        <div class="canvas" id="canvas">
+            <div class="canvas-item figure1"></div>
+            <div class="canvas-item figure2"></div>
+            <div class="canvas-item figure3"></div>
+            <div class="canvas-item figure4"></div>
+            <div class="canvas-item figure5"></div>
+            <div class="canvas-item figure6"></div>
+            <div class="canvas-item figure7"></div>
+            <div class="canvas-item figure8"></div>
+            <div class="canvas-item figure9"></div>        
+        </div>        
+    </main>
+    <script src="index.js"></script>        
+</body>
+</html>
